@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1e2b2f">
+<link rel="icon" type="image/png" href="chofer/icons/icon-192.png">
+<title>Pollos La Roca</title>
+<style>
+  :root{--bg:#f3f0ea;--ink:#1e2b2f;--muted:#6a7477;--line:#e5e0d7;--accent:#e8892b;--accent-ink:#b4610f}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg)}
+  body{color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.4}
+  header{background:var(--ink);color:#fff;padding:calc(22px + env(safe-area-inset-top)) 16px 22px}
+  header .in,main{max-width:560px;margin:0 auto}
+  header small{display:block;color:#aab8bb;font-size:13px;font-weight:600}
+  header h1{margin:2px 0 0;font-size:24px;font-weight:800}
+  main{padding:18px 14px 40px;display:flex;flex-direction:column;gap:12px}
+  a.app{display:flex;align-items:center;gap:14px;background:#fff;border-radius:18px;padding:14px;color:inherit;text-decoration:none;box-shadow:0 0 0 1px var(--line),0 2px 6px rgba(30,43,47,.04)}
+  a.app:active{transform:scale(.98)}
+  a.app img{width:60px;height:60px;border-radius:15px;flex:none}
+  a.app div{flex:1;min-width:0}
+  a.app b{display:block;font-size:17px}
+  a.app span{color:var(--muted);font-size:14px}
+  a.app i{font-style:normal;color:var(--accent-ink);font-weight:800;font-size:22px}
+  p.tip{color:var(--muted);font-size:13.5px;margin:6px 4px 0}
+</style>
+</head>
+<body>
+<header><div class="in"><small>Apps de trabajo</small><h1>Pollos La Roca</h1></div></header>
+<main>
+  <a class="app" href="chofer/"><img src="chofer/icons/icon-192.png" alt=""><div><b>Chofer</b><span>Control operativo del día: ruta, kilometraje, gasolina, gastos.</span></div><i>›</i></a>
+  <a class="app" href="cargador/"><img src="cargador/icons/icon-192.png" alt=""><div><b>Cargador</b><span>Ventas en ruta: clientes, piezas, precios y PDF de la hoja.</span></div><i>›</i></a>
+  <p class="tip">Abre tu app y toca <b>Instalar</b> para tenerla en tu pantalla y usarla sin señal.</p>
+</main>
+</body>
+</html>
