@@ -1,6 +1,6 @@
 /* Modo sin conexión de Control Operativo.
    Al subir una versión nueva, cambia VERSION para que los teléfonos la descarguen. */
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const CACHE = 'control-operativo-' + VERSION;
 const ASSETS = [
   './',
